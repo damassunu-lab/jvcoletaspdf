@@ -28,10 +28,10 @@ def run_flask():
 # Funções do Bot
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🤖 Olá! Envie suas 30+ fotos em sequência.\n\n"
+        "Maninho envie suas 30+ fotos em sequência.\n\n"
         "Comandos:\n"
-        "• `/gerar_pdf` - Gera o PDF com nome padrão.\n"
-        "• `/gerar_pdf nome_personalizado` - Gera o PDF com nome escolhido."
+        "• `/gerar` - Gera o PDF com nome padrão.\n"
+        "• `/gerar nome_personalizado` - Gera o PDF com nome escolhido."
     )
 
 async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
